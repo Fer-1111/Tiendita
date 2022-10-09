@@ -6,7 +6,8 @@ public class DocTributario {
     private date fecha;
 }
 
-class Boleta{
+class Boleta extends DocTributario{
 }
-class Factura{
+
+class Factura extends DocTributario{
 }
